@@ -47,13 +47,6 @@
 
 FidZone combines modern social networking features with enhanced security, creating a vibrant and trustworthy digital space.
 
-## 📦 Installation
-
-```bash
-git clone https://github.com/yourusername/fidzone.git
-cd fidzone
-```
-
 ## 📌 Notes
 
 - This project is for academic or personal use and does not include full security measures.
