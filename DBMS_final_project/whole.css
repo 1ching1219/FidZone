@@ -1,0 +1,478 @@
+
+.post_pic_form{
+    width: 540px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    border: 1px solid #ddd;
+}
+.wrapper{
+    max-height: 320px;
+    width: 540px;
+    display: flex;
+    overflow-x: auto;
+} 
+.wrapper::-webkit-scrollbar{
+   width: 20px;
+}
+.wrapper .post_pic_form{
+    min-width: 540px;
+    height: 300px;
+    line-height: 305px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 2px;
+}
+.profile_pic_form{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.account_name{
+    height:50px;
+}
+a, a:visited, a:link, a:hover, a:active{
+    color: #000;
+    text-decoration: none;
+    outline: none!important;
+}
+
+.personal_profile_pic_form{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.personal_account_name{
+    height: 100px;
+}
+.personal_infobox{
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 300px;
+}
+.personal_post_pic_form{
+    width: 175px;
+    height: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    border:2px solid white
+}
+.personal_all_post{
+    display: flex;
+    flex-wrap: wrap;
+    width: 580px;
+    position: relative;
+    top:30px;
+    right:5px
+    
+}
+.edit_button{
+    position: relative;
+    top: 20px;
+    left:350px;
+    background-color: transparent;
+    border:none;
+}
+.your_own_photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    position: relative;
+    top: 5px;
+}
+.add_friend_btn{
+    position: relative;
+    left: 480px;
+}
+.noti{
+    background-color: rgb(214, 8, 8);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    color:white;
+    text-align: center;
+}
+.noti1{
+    background-color: rgb(214, 8, 8);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    color:white;
+    text-align: center;
+}
+.navbar1{
+    width: 540px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    left: 490px;
+    text-align: center;
+    background-color: white;
+    border-top: #ddd 1px solid;
+}
+
+input[type=text]:focus, textarea:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.txt, .sub, input[type=password] {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 3em;
+}
+.body{
+    width: 540px;
+    text-align: center;
+    position: absolute;     /*絕對位置*/
+    top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
+    left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/
+    margin-top: -130px;     /*高度的一半*/
+    margin-left: -300px; 
+}
+.body1{
+    width: 540px;
+    text-align: center;
+    position: absolute;     /*絕對位置*/
+    top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
+    left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/
+    margin-top: -230px;     /*高度的一半*/
+    margin-left: -300px; 
+}
+body{
+    /* text-align: center; */
+    font-family: 'Radio Canada', sans-serif;
+}
+.forgot{
+    font-size: smaller;
+    color: gray;
+    margin: 10px;
+}
+.btn{ 
+    border: none;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 15.5px;
+    font-weight: 530;
+    outline: none;
+}
+.a_type{
+    padding: 10px;
+    
+}
+input[type='radio']{
+    accent-color: #66afe9;
+    border-color: #66afe9;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: gray;
+}
+.myButton {
+    background:url(/profile_img/user.png) no-repeat;
+    cursor:pointer;
+    width: 200px;
+    height: 100px;
+    border: none;
+    
+}
+.profile{
+    border-radius:50%; 
+    width:150px;
+    height:150px;
+    position: relative;
+    left: 190px;
+    overflow: hidden;
+}
+.main{
+    position:relative;
+    left:490px;
+    width: 540px;
+}
+.a_whole_set, .all_posts{
+    width: 540px;
+}
+.all_posts{
+    height: 650px;
+    margin-top: 50px;
+}
+.top{
+    width: 540px;
+    height: 50px;
+    position: fixed;
+    left: 490px;
+    top:0px;
+    background-color: white;
+    border-bottom: 1px solid rgb(209, 207, 207);
+    z-index:10;
+}
+.comment{
+    border: 1.5px solid rgb(159, 158, 158);
+    box-sizing: border-box;
+    height: 36px;
+    margin-top: 4px;
+    width: 530px;
+    border-radius: 3em;
+    margin-left: 3px;
+    padding-left:15px ;
+}
+.comment_zone{
+    position: relative;
+    left: 10px;
+}
+textarea{
+    resize:none;
+    width:480px;
+    height:250px;
+    border-radius: 1.5em;
+    padding: 10px 15px;
+    font-size: large;
+}
+.P_sub{
+    width: 150px;
+    border: 1px solid gray;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 3em;
+}
+.P_sub:hover{
+    background-color: #66afe9;
+    color:white;
+    font-weight: bold;
+}
+.imgimg{
+    width:80px;
+    z-index: -10;
+    height:80px
+}
+.imgimg:hover{
+    width: 81px;
+    
+}
+#preview_progressbarTW_imgs::-webkit-scrollbar{
+    width: 0px;
+ }
+ .F_sub{
+    width: 500px;
+    height: 25px;
+    border: 1px solid gray;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+    border-radius: 3em;
+    background-color: white;
+}
+.F_sub:hover{
+    background-color: gray;
+    color:white;
+    font-weight: bold;
+}
+.f_sub{
+    width: 250px;
+    height: 25px;
+    border: 1px solid gray;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+    border-radius: 3em;
+    background-color: white;
+}
+.others{
+    word-wrap:break-word;
+    max-width: 250px;
+    width: fit-content;
+    border-radius: 7px;
+    background-color: #ddd;
+    padding: 4px 6px;
+    margin:10px;
+    display: block;
+}
+.you_own{
+    word-wrap:break-word;
+    max-width: 250px;
+    width: fit-content;
+    border-radius: 7px;
+    background-color: #66afe9;
+    padding: 2px 6px;
+    float:right;
+    margin:10px;
+    color:white;
+    display: block;
+}
+.left{
+    width: 540px;
+    float: left;
+}
+.right{
+    width: 540px;
+    float: right;
+}
+.chatZone{
+    width: 500px;
+    display: block;
+    overflow-x: auto;
+}
+#ccc::-webkit-scrollbar{
+    width: 0px;
+ }
+.chat_profile_form{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 8px;
+    position: relative;
+    top:15px
+}
+.each_room{
+    width: 540px;
+    padding: 4px;
+    border-bottom: 1px solid rgb(202, 198, 198);
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.chat_show{
+    font-size: 25px;
+    position: relative;
+    left: 130px;
+    bottom: 44px;
+    float: left;
+}
+.all_m{
+    position: relative;
+    top:60px;
+}
+.del_f_btn{
+    width:100px;
+    background-color: #66afe9;
+    height: 26px;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 3em;
+    font-size: 15px;
+    position: relative;
+    left: 170px;
+    top:5px
+}
+.f_re{
+    background-color: #ddd;
+    border: none;
+    border-radius: 2.5em;
+    width:50px;
+    height:30px;
+    position: relative;
+    top:5.5px
+}
+.f_re:hover{
+    background-color: #66afe9;
+    color:white;
+}
+.category{
+    width: 55px;
+    height: 30px;
+    border: 1px solid rgb(158, 158, 158);
+    background-color: white;
+    border-radius: 2.5em;
+    margin-right:5px ;
+    position: relative;
+    left: 10px;
+}
+.all_cate{
+    position: relative;
+    top:20px;
+    height: 30px;
+    max-width: 520px;
+    overflow-x:auto ;
+}
+.category:hover{
+    background-color: rgb(158, 158, 158);
+    color: white;
+}
+#outer{
+    position:fixed;
+    border:1px solid #66afe9;
+    border-radius: 8px;
+    background-color: white;
+    overflow: visible;
+    padding:2px;
+    bottom:50px;
+    display: none;
+    text-align: center;
+    width:240px;
+    height: fit-content;
+}
+#search_result{
+    background-color: white;
+    position:relative;
+    bottom:30px;
+    display: flex;
+    overflow-y:auto;
+    max-height: 600px;
+    width:520px;
+    flex-direction: column;
+    z-index: 999;
+    color: rgb(92, 90, 90);
+    
+}
+.searchs{
+    padding-left: 25px;
+    /* flex-direction: column; */
+    width: 470px;
+    height: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 50px;
+    display:flex;
+    border-bottom:1px solid rgb(187, 186, 186);
+    position: relative;
+    left: 10px;
+}
+#search_result::-webkit-scrollbar{
+    width:0;
+}
+.numbtn{
+    width:80px;
+    background-color: #66afe9;
+    height: 35px;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    font-size: 15px;
+    
+}
+.word-format{
+    white-space:pre-line
+}
